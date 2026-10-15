@@ -4,6 +4,21 @@ This project trains a YOLO detector on the EPRI Distribution Inspection Imagery 
 drone photos of overhead distribution poles. It also includes a small web app that shows each detected
 component and flags possible problems.
 
+## Quick start (just run the app)
+
+macOS / Linux, Python 3.10+:
+
+```bash
+git clone https://github.com/YuviBat09/gridsmith_cv.git && cd gridsmith_cv && ./run.sh
+```
+
+The first run creates `.venv`, installs dependencies (a few minutes), downloads the trained model from the
+[latest release](https://github.com/YuviBat09/gridsmith_cv/releases/latest), and opens
+http://127.0.0.1:7860. Later runs start in seconds. Use `PORT=8080 ./run.sh` to change the port. No dataset
+download is needed to use the app; that is only for retraining (below).
+
+## Project layout
+
 ```
 data/raw/            Circuit5.zip, Circuit10.zip, labels file (you download these)
 data/yolo/           YOLO-format dataset produced by src/prepare_data.py

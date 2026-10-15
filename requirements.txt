@@ -1,0 +1,10 @@
+# ultralytics is pinned exactly: YOLO26 support and the trained weights depend on it.
+ultralytics==8.4.177
+torch>=2.2
+torchvision>=0.17
+opencv-python-headless>=4.9
+gradio>=6.0,<7
+pandas>=2.0
+numpy>=1.26
+pillow>=10.0
+pyyaml>=6.0
