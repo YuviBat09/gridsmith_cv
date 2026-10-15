@@ -1,0 +1,40 @@
+{
+  "mAP50": 0.9015,
+  "mAP50_95": 0.6006,
+  "precision": 0.9063,
+  "recall": 0.822,
+  "per_class_AP50": {
+    "insulator": 0.8819,
+    "crossarm": 0.8906,
+    "pole": 0.9415,
+    "cutouts": 0.862,
+    "transformers": 0.9312
+  },
+  "per_class_AP50_95": {
+    "insulator": 0.5639,
+    "crossarm": 0.6482,
+    "pole": 0.7289,
+    "cutouts": 0.4776,
+    "transformers": 0.5842
+  },
+  "class_names": [
+    "insulator",
+    "crossarm",
+    "pole",
+    "cutouts",
+    "transformers"
+  ],
+  "num_classes": 5,
+  "imgsz": 1024,
+  "train_date": "2026-10-15T06:40:02+00:00",
+  "model": "yolo26s.pt",
+  "device": "mps",
+  "epochs_requested": 50,
+  "epochs_run": 50,
+  "batch": 6,
+  "fraction": 1.0,
+  "quick": false,
+  "train_seconds": 4783.0,
+  "sec_per_epoch": 95.7,
+  "run_dir": "/Users/yuvi/madmanlab/epri-cv/runs/full_c5"
+}

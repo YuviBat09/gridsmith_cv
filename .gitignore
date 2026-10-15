@@ -1,0 +1,16 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# EPRI data (download per README; not redistributed here)
+data/
+
+# training outputs (plots contain EPRI image mosaics) and logs
+runs/
+*.log
+
+# model weights (pretrained base models auto-download; trained weights shared separately)
+*.pt
+*.onnx
